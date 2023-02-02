@@ -24,8 +24,6 @@ $f3->route('GET /', function (){
 });
 
 
-//route to home
-
 //Define a route to order form 1
 //$f3->route('GET|POST /order1', function () use ($f3) {
 //    if ($_SERVER['REQUEST_METHOD'] ==  'POST'){
