@@ -23,19 +23,6 @@ $f3->route('GET /', function (){
     echo $view->render("views/home.html");
 });
 
-//route to find a DJ page
-$f3->route('GET /eventSearch', function (){
-    //Instantiate a view
-    $view = new Template();
-    echo $view->render("views/events.html");
-});
-
-//route to find a DJ page
-$f3->route('GET /events', function (){
-    //Instantiate a view
-    $view = new Template();
-    echo $view->render("views/events.html");
-});
 
 //Define a route to order form 1
 //$f3->route('GET|POST /order1', function () use ($f3) {
